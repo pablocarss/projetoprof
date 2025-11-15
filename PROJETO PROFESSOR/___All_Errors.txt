@@ -1,0 +1,6 @@
+CorrelationId: 27ea769e-705d-48f1-95df-58f549bf686e
+UTC DateTime: 11/15/2025 19:31:34
+
+The following files/folders have not been downloaded
+0. Aula 23 - WebAppClientes/build/web/WEB-INF/classes/.netbeans_automatic_build
+1. Aula 23 - WebAppClientes/build/web/WEB-INF/classes/.netbeans_update_resources

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit this template
+-->
+<html>
+    <head>
+        <title>Controle de Clientes</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">                          
+        <link href="../style/geral2.css" rel="stylesheet" type="text/css"/>        
+    </head>
+    <body>
+        <div class="container">
+            <h2> Clientes </h2>               
+            <form method="post" action="../SalvarImagem" enctype="multipart/form-data">
+            <!-- <form method="post" action="cliente.jsp"> -->
+               <!-- Identificador: <input type="number" name="ident"> <p> -->
+                Nome do Cliente: <input type="text" name="cliente"> <p>
+                Email: <input type="email" name="email"> <p>
+                Renda: <input type="number" name="renda" step="0.25"> <p>
+                Celular: <input type="text" name="celular"> <p>
+                Nascimento: <input type="date" name="nascimento"> <p>
+                Foto: <input type="file" name="foto_img" size="64" accept=".jpeg,.png,.jpg">
+                        
+                <div class="buttons">
+                    <button type="submit" class="submit-btn">Cadastrar</button>
+                    <button type="reset" class="reset-btn">Limpar</button>                    
+                </div>                                                
+            </form>
+               
+            <div class="buttons">                
+                <p><button onclick="document.location='../'" class="voltar-btn">Voltar</button> </p>
+            </div>
+        </div>
+    </body>
+</html>
